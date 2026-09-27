@@ -1,0 +1,29 @@
+Atividade EaD de HTML
+Desenvolvimento do código e explicação da página
+Nome: Wagner Zeppenfeld
+1ª Fase ADS
+
+1. Como você montou a estrutura básica do arquivo index.html? Explique a função de <!DOCTYPE html>, <html>, <head> e <body>.
+
+A estrutura básica foi montada especificando o tipo de documento criado, isso foi feito na primeira linha e depois fui acrescentando as outros tags necessárias em ordem hierárquica. A tag <!DOCTYPE html> avisa ao navegador que o arquivo usa a versão HTML5. A tag <html> é a tag raiz que engloba todo o documento. A <head> guarda as configurações invisíveis ao usuário, e o <body> armazena o conteúdo da página que o usuário vai ver.
+
+2. O que você colocou dentro do <head> e qual é a função de cada elemento utilizado?
+
+Dentro da tag <head>, coloquei a tag <meta charset="UTF-8"> que configura a exibição correta de acentos e caracteres em português e a tag <meta name="viewport" content="width=device-width, initial-scale=1.0"> para adaptar a página com a tela do usuário. Adicionei também <title>Meu perfil acadêmico</title>, que define o nome exibido na aba do navegador. E depois utilizei <style>, que guarda todas as regras de estilização CSS.
+
+3. Como você utilizou as duas <div> para separar e organizar os conteúdos da página? Informe também os nomes das classes criadas.
+
+Utilizei as tags <div> para agrupar e separar o conteúdo em dois blocos temáticos na página. A primeira <div> coloquei a classe perfil <div class="perfil">, agrupando o título, os dois parágrafos sobre mim e a lista de interesses. A segunda <div> a classe objetivos <div class="objetivos">, agrupando o título e o texto sobre o tema de tecnologia que desejo aprender.
+
+4. Como você aplicou o CSS dentro da tag <style>? Apresente um seletor, uma propriedade e um valor existentes no seu código.
+
+O CSS foi aplicado internamente através de regras de estilo definidas dentro do bloco <style> no cabeçalho do arquivo. Um exemplo presente no código é a regra .objetivos { background-color: #ebf8ff; }. Nela, o seletor é .objetivos (que aponta para a classe da segunda div), a propriedade é background-color e o valor atribuído é #ebf8ff (azul claro).
+
+5. Quais cores e propriedades visuais você escolheu e qual foi o resultado observado no navegador?
+
+Escolhi três cores de texto: azul-escuro #1a365d para o <h1>, azul-médio #2b6cb0 para o <h2> e cinza-escuro #2d3748 para os parágrafos <p>. Nas <div>, utilizei as propriedades padding: 25px para espaçar o texto internamente, border para criar contornos e background-color para destacar os fundos. O resultado no navegador ficou como imaginei, organizado e legível.
+
+6. Qual alteração ou correção foi necessária depois que você testou a página? Caso não tenha ocorrido erro, explique como realizou o teste.
+
+A todo momento que fazia alguma alteração, eu verificava como a página estava ficando. Além disso fui fazendo teste da tonalidade das cores para que ficasse com uma leitura boa do texto, e também para que ele ficasse organizado.
+
